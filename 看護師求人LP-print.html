@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>介護職 採用 ｜ 長く働ける新施設（印刷用）</title>
+<link rel="stylesheet" href="colors_and_type.css">
+<link rel="stylesheet" href="lp.css">
+<style>
+  /* Force colors to print */
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
+  html, body { background: #fdf6ef; }
+
+  /* Hide floating + interactive chrome */
+  .lp-float-cta,
+  .tweaks-panel { display: none !important; }
+
+  /* Sticky topbar → static for print */
+  .lp-topbar { position: static !important; backdrop-filter: none !important; background: #fff !important; }
+
+  /* Disable hover transforms / animations for stable print */
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .lp-petal { display: none !important; }
+
+  /* Section break hints */
+  .lp-section, .lp-hero, .lp-cta { break-inside: avoid-page; }
+  .lp-voice-card, .lp-problem-card, .lp-tour-card, .lp-reason-row,
+  .lp-journey-step, .lp-fit-card, .lp-terms-card, .lp-process-step,
+  .lp-cta-inner { break-inside: avoid; }
+
+  @page {
+    size: A4;
+    margin: 10mm 8mm;
+  }
+
+  @media print {
+    html, body { background: #fdf6ef !important; }
+
+    /* Reduce huge vertical paddings so sections fit nicer */
+    .lp-section { padding: 40px 16px !important; }
+    .lp-hero { padding: 40px 16px 50px !important; }
+    .lp-cta { padding: 40px 16px !important; }
+
+    /* Ensure hero visual doesn't get cut */
+    .lp-hero-inner { gap: 32px !important; }
+    .lp-hero-visual { height: 380px !important; }
+
+    /* Page breaks before major narrative beats */
+    .lp-voice, .lp-reasons, .lp-ceo, .lp-tour,
+    .lp-journey, .lp-fit, .lp-terms, .lp-process, .lp-cta {
+      break-before: page;
+    }
+
+    /* Shrink heavy shadows so they don't look muddy on paper */
+    .lp-hero-photo, .lp-video-placeholder,
+    .lp-voice-card, .lp-problem-card, .lp-tour-card,
+    .lp-fit-card, .lp-terms-card, .lp-process-step,
+    .lp-journey-note, .lp-cta-inner,
+    .lp-ceo-photo, .lp-hero-kpi {
+      box-shadow: 0 2px 6px rgba(61,44,38,.08) !important;
+    }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="data.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" data-presets="react" src="app.jsx"></script>
+<script type="text/babel" data-presets="react">
+  (async () => {
+    try {
+      if (document.fonts && document.fonts.ready) { await document.fonts.ready; }
+    } catch (e) {}
+    // Wait for the React app to mount + layout to settle
+    await new Promise(r => setTimeout(r, 1500));
+    window.print();
+  })();
+</script>
+</body>
+</html>

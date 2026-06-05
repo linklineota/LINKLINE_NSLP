@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Editor/IDE local config
+.claude/
+.vscode/
+.idea/
+
+# Node (in case dependencies are added later)
+node_modules/
+
+# Logs
+*.log
+
+# OS / temp
+Thumbs.db
+*.swp
