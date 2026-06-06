@@ -978,6 +978,9 @@
   .lp-voice-card::before { right: 20px; top: 8px; font-size: 64px; }
   .lp-reason-row, .lp-reason-row.flip { grid-template-columns: 1fr; gap: 28px; }
   .lp-reason-row.flip .r-visual, .lp-reason-row.flip .r-copy { order: unset; }
+  .lp-reason-row .r-visual { aspect-ratio: 16/9; max-height: 220px; }
+  .lp-reason-row .r-visual .illust { width: 100px; }
+  .lp-reason-row .r-visual .ph-label { bottom: 10px; left: 12px; padding: 4px 10px; font-size: 10px; }
   .lp-ceo-grid { grid-template-columns: 1fr; }
   .lp-tour-grid { grid-template-columns: 1fr; }
   .lp-fit-grid { grid-template-columns: 1fr; }
