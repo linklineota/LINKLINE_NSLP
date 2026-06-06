@@ -77,7 +77,7 @@ window.LP_DATA = {
       {
         name: "得丸 香",
         role: "看護師",
-        years: "25年目",
+        years: "入社2年目",
         tag: "利用者さんの喜びが、毎日のやりがい",
         photo: "images/voice-03.jpg",
         video: "OOmgisHi5i4",
@@ -89,7 +89,7 @@ window.LP_DATA = {
       {
         name: "中野 佳昌",
         role: "介護士",
-        years: "10年目",
+        years: "入社10年目",
         tag: "こんなに長く務められたのは、この会社だったから",
         photo: "images/voice-02.jpg",
         video: "Bc0Uwt8oN-4",
@@ -101,7 +101,7 @@ window.LP_DATA = {
       {
         name: "菊井 淑光",
         role: "介護士",
-        years: "5年目",
+        years: "入社5年目",
         tag: "社長と距離が近くて、現場の負担を相談しやすい",
         photo: "images/voice-01.jpg",
         video: "5jFtPnomvNU",
