@@ -243,7 +243,7 @@ function ReasonRow({ r, i, illust }) {
   );
 }
 function Reasons() {
-  const illusts = [D.illust.k20, D.illust.meeting, D.illust.k12];
+  const illusts = [D.illust.support, D.illust.meeting, D.illust.schedule];
   return (
     <section className="lp-section lp-reasons" id="reasons">
       <div className="lp-container">

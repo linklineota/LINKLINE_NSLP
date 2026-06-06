@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" fill="none">
-  <!-- background subtle shadow under table -->
-  <ellipse cx="120" cy="180" rx="78" ry="8" fill="#000" opacity="0.05"/>
+  <!-- shadow under table -->
+  <ellipse cx="120" cy="184" rx="80" ry="7" fill="#000" opacity="0.05"/>
 
-  <!-- circular table (top-down) -->
+  <!-- circular table -->
   <ellipse cx="120" cy="125" rx="72" ry="34" fill="#d9b58c"/>
   <ellipse cx="120" cy="119" rx="72" ry="34" fill="#fbe5c8" stroke="#b9885d" stroke-width="2"/>
 
@@ -22,37 +22,33 @@
   <!-- pen -->
   <line x1="82" y1="124" x2="94" y2="130" stroke="#d56c7a" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- speech bubble (small) above table -->
-  <g transform="translate(120 76)">
-    <ellipse cx="0" cy="0" rx="14" ry="9" fill="#ffffff" stroke="#d56c7a" stroke-width="1.8"/>
-    <circle cx="-4.5" cy="0" r="1.4" fill="#d56c7a"/>
-    <circle cx="0" cy="0" r="1.4" fill="#d56c7a"/>
-    <circle cx="4.5" cy="0" r="1.4" fill="#d56c7a"/>
-    <path d="M -2 8 L 0 12 L 2 8 Z" fill="#ffffff" stroke="#d56c7a" stroke-width="1.8"/>
-  </g>
-
-  <!-- person 1 (top) -->
+  <!-- person 1 (top) — long brown hair -->
   <g>
     <path d="M 100 70 Q 100 58 120 58 Q 140 58 140 70 L 140 90 L 100 90 Z" fill="#e89cc5"/>
-    <circle cx="120" cy="50" r="13" fill="#fbd6b3"/>
-    <path d="M 107 50 Q 107 36 120 36 Q 133 36 133 50 Q 133 44 130 42 Q 120 40 110 42 Q 107 44 107 50 Z" fill="#4a3024"/>
+    <circle cx="120" cy="48" r="13" fill="#fbd6b3"/>
+    <!-- long hair flowing down to shoulders -->
+    <path d="M 107 50 Q 105 32 120 32 Q 135 32 133 50 L 137 56 Q 138 70 134 84 L 128 84 Q 132 70 130 56 Q 128 50 124 49 Q 120 48 116 49 Q 112 50 110 56 Q 108 70 112 84 L 106 84 Q 102 70 103 56 Z" fill="#4a3024"/>
+    <!-- side bangs -->
+    <path d="M 113 42 Q 120 38 127 42 Q 124 47 120 47 Q 116 47 113 42 Z" fill="#3a2820"/>
   </g>
 
-  <!-- person 2 (bottom-left) -->
+  <!-- person 2 (bottom-left) — ponytail style -->
   <g>
     <path d="M 44 160 Q 44 148 64 148 Q 84 148 84 160 L 82 184 L 46 184 Z" fill="#a9d99d"/>
-    <circle cx="64" cy="140" r="13" fill="#fbd6b3"/>
-    <path d="M 51 140 Q 51 126 64 126 Q 77 126 77 140 Q 77 134 74 132 Q 64 130 54 132 Q 51 134 51 140 Z" fill="#5c4438"/>
+    <circle cx="64" cy="138" r="13" fill="#fbd6b3"/>
+    <!-- hair with side volume + ponytail at back -->
+    <path d="M 51 140 Q 49 122 64 122 Q 79 122 77 140 L 80 146 Q 81 156 78 162 L 72 162 Q 75 154 74 146 Q 73 138 70 136 Q 64 134 58 136 Q 55 138 54 146 Q 53 156 56 162 L 50 162 Q 47 156 48 146 Z" fill="#5c4438"/>
     <!-- arm to table -->
-    <path d="M 80 154 Q 92 142 100 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M 80 152 Q 92 142 100 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
   </g>
 
-  <!-- person 3 (bottom-right) -->
+  <!-- person 3 (bottom-right) — short bob with side hair -->
   <g>
     <path d="M 156 160 Q 156 148 176 148 Q 196 148 196 160 L 194 184 L 158 184 Z" fill="#8fc6e2"/>
-    <circle cx="176" cy="140" r="13" fill="#fbd6b3"/>
-    <path d="M 163 140 Q 163 126 176 126 Q 189 126 189 140 Q 189 134 186 132 Q 176 130 166 132 Q 163 134 163 140 Z" fill="#3a2820"/>
+    <circle cx="176" cy="138" r="13" fill="#fbd6b3"/>
+    <!-- bob hair -->
+    <path d="M 163 140 Q 161 122 176 122 Q 191 122 189 140 L 192 150 Q 192 154 188 154 L 188 142 Q 188 134 184 132 Q 176 130 168 132 Q 164 134 164 142 L 164 154 Q 160 154 160 150 Z" fill="#3a2820"/>
     <!-- arm to table -->
-    <path d="M 160 154 Q 148 142 140 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M 160 152 Q 148 142 140 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
   </g>
 </svg>
