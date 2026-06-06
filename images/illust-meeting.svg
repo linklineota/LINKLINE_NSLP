@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" fill="none">
+  <!-- background subtle shadow under table -->
+  <ellipse cx="120" cy="180" rx="78" ry="8" fill="#000" opacity="0.05"/>
+
+  <!-- circular table (top-down) -->
+  <ellipse cx="120" cy="125" rx="72" ry="34" fill="#d9b58c"/>
+  <ellipse cx="120" cy="119" rx="72" ry="34" fill="#fbe5c8" stroke="#b9885d" stroke-width="2"/>
+
+  <!-- papers on table -->
+  <g transform="translate(96 106) rotate(-6)">
+    <rect width="26" height="20" rx="1.5" fill="#ffffff" stroke="#a07854" stroke-width="1.2"/>
+    <line x1="3" y1="6" x2="22" y2="6" stroke="#cda58a" stroke-width="0.9"/>
+    <line x1="3" y1="10" x2="22" y2="10" stroke="#cda58a" stroke-width="0.9"/>
+    <line x1="3" y1="14" x2="16" y2="14" stroke="#cda58a" stroke-width="0.9"/>
+  </g>
+  <g transform="translate(125 108) rotate(11)">
+    <rect width="26" height="20" rx="1.5" fill="#ffffff" stroke="#a07854" stroke-width="1.2"/>
+    <line x1="3" y1="6" x2="22" y2="6" stroke="#cda58a" stroke-width="0.9"/>
+    <line x1="3" y1="10" x2="22" y2="10" stroke="#cda58a" stroke-width="0.9"/>
+  </g>
+
+  <!-- pen -->
+  <line x1="82" y1="124" x2="94" y2="130" stroke="#d56c7a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- speech bubble (small) above table -->
+  <g transform="translate(120 76)">
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="#ffffff" stroke="#d56c7a" stroke-width="1.8"/>
+    <circle cx="-4.5" cy="0" r="1.4" fill="#d56c7a"/>
+    <circle cx="0" cy="0" r="1.4" fill="#d56c7a"/>
+    <circle cx="4.5" cy="0" r="1.4" fill="#d56c7a"/>
+    <path d="M -2 8 L 0 12 L 2 8 Z" fill="#ffffff" stroke="#d56c7a" stroke-width="1.8"/>
+  </g>
+
+  <!-- person 1 (top) -->
+  <g>
+    <path d="M 100 70 Q 100 58 120 58 Q 140 58 140 70 L 140 90 L 100 90 Z" fill="#e89cc5"/>
+    <circle cx="120" cy="50" r="13" fill="#fbd6b3"/>
+    <path d="M 107 50 Q 107 36 120 36 Q 133 36 133 50 Q 133 44 130 42 Q 120 40 110 42 Q 107 44 107 50 Z" fill="#4a3024"/>
+  </g>
+
+  <!-- person 2 (bottom-left) -->
+  <g>
+    <path d="M 44 160 Q 44 148 64 148 Q 84 148 84 160 L 82 184 L 46 184 Z" fill="#a9d99d"/>
+    <circle cx="64" cy="140" r="13" fill="#fbd6b3"/>
+    <path d="M 51 140 Q 51 126 64 126 Q 77 126 77 140 Q 77 134 74 132 Q 64 130 54 132 Q 51 134 51 140 Z" fill="#5c4438"/>
+    <!-- arm to table -->
+    <path d="M 80 154 Q 92 142 100 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- person 3 (bottom-right) -->
+  <g>
+    <path d="M 156 160 Q 156 148 176 148 Q 196 148 196 160 L 194 184 L 158 184 Z" fill="#8fc6e2"/>
+    <circle cx="176" cy="140" r="13" fill="#fbd6b3"/>
+    <path d="M 163 140 Q 163 126 176 126 Q 189 126 189 140 Q 189 134 186 132 Q 176 130 166 132 Q 163 134 163 140 Z" fill="#3a2820"/>
+    <!-- arm to table -->
+    <path d="M 160 154 Q 148 142 140 132" stroke="#fbd6b3" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
