@@ -349,6 +349,6 @@ window.LP_DATA = {
     k23: "https://www.saiseikai.gr.jp/recruit/nurse/common/img/illust-kango/illust_23.png",
     support:  "images/illust-support.svg",
     meeting:  "images/illust-meeting.jpg",
-    schedule: "images/illust-schedule.svg",
+    schedule: "images/illust-schedule.jpg",
   },
 };
