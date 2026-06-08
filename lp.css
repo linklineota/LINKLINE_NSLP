@@ -1132,4 +1132,7 @@
   .lp-tour .lp-label-center p,
   .lp-journey .lp-label-center p,
   .lp-fit .lp-label-center p { white-space: pre-line; }
+
+  /* problems-outro: target exactly 3 lines on mobile (1 + 2) */
+  .lp-problems-outro { font-size: 15px; line-height: 1.85; }
 }
