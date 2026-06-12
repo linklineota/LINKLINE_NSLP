@@ -229,7 +229,6 @@ function ReasonRow({ r, i, illust }) {
     <div ref={ref} className={`lp-reason-row reveal ${i % 2 === 1 ? 'flip slide-left' : 'slide-right'}`}>
       <div className="r-visual">
         <img className="illust" src={illust} alt=""/>
-        <div className="ph-label">REASON {r.num}</div>
       </div>
       <div className="r-copy">
         <span className="r-num"><small>REASON {r.num}</small>{r.num}</span>
