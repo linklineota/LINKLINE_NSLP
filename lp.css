@@ -621,6 +621,7 @@
   content: ""; position: absolute; left: 14px; top: 12px;
   width: 28px; height: 28px; border-radius: 999px;
   background: #fff; border: 2px solid var(--p);
+  box-sizing: border-box;
 }
 .lp-journey-step::after {
   content: ""; position: absolute; left: 22px; top: 20px;
