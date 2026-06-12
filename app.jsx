@@ -277,6 +277,18 @@ function Ceo() {
               <div className="name">{D.brand.ceoName}</div>
             </div>
           </div>
+          {D.ceo.video && (
+            <div className="lp-ceo-video reveal zoom" ref={useReveal()}>
+              <div className="lp-voice-video" style={{maxWidth:680}}>
+                <iframe
+                  src={`https://www.youtube.com/embed/${D.ceo.video}`}
+                  title="代表メッセージ"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          )}
           <div className="lp-ceo-body reveal slide-right" ref={useReveal()}>
             <div className="quote">{D.ceo.quote}</div>
             {D.ceo.body.map((p, i) => <p key={i}>{p}</p>)}
@@ -286,19 +298,6 @@ function Ceo() {
             </div>
           </div>
         </div>
-
-        {D.ceo.video && (
-          <div className="lp-ceo-video reveal zoom" ref={useReveal()}>
-            <div className="lp-voice-video" style={{maxWidth:680}}>
-              <iframe
-                src={`https://www.youtube.com/embed/${D.ceo.video}`}
-                title="代表メッセージ"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );
