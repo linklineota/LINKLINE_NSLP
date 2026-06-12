@@ -272,9 +272,8 @@ function Ceo() {
         <div className="lp-ceo-grid">
           <div className="lp-ceo-photo reveal slide-left" ref={useReveal()}>
             {D.ceo.photo && <img className="ceo-img" src={D.ceo.photo} alt={D.brand.ceoName} />}
-            <span className="ceo-tag">CEO</span>
             <div className="caption">
-              <div className="role">{D.brand.company}　代表取締役社長</div>
+              <div className="role">{D.brand.company}　代表取締役</div>
               <div className="name">{D.brand.ceoName}</div>
             </div>
           </div>
@@ -282,7 +281,7 @@ function Ceo() {
             <div className="quote">{D.ceo.quote}</div>
             {D.ceo.body.map((p, i) => <p key={i}>{p}</p>)}
             <div className="sig">
-              {D.brand.company}　代表取締役社長
+              {D.brand.company}　代表取締役
               <strong>{D.brand.ceoName}</strong>
             </div>
           </div>
