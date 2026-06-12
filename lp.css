@@ -1134,6 +1134,7 @@
   .lp-fit-card { padding: 28px 24px 24px; }
   .lp-terms-card { padding: 24px 22px 22px; }
   .lp-cta-inner { padding: 44px 24px; }
+  .lp-cta h3 { font-size: 18px; line-height: 1.7; }
   .lp-line-btn { font-size: 16px; padding: 16px 22px; gap: 8px; }
   .lp-cta-note { font-size: 11px; letter-spacing: -0.01em; white-space: nowrap; }
 }
