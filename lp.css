@@ -523,7 +523,7 @@
   color: var(--p-ink); font-weight: 600;
 }
 .lp-ceo-photo .caption {
-  width: 100%; padding: 18px 20px; background: linear-gradient(to top, rgba(0,0,0,.5), transparent);
+  width: 100%; padding: 18px 24px 18px 32px; background: linear-gradient(to top, rgba(0,0,0,.5), transparent);
   color: #fff; position: relative; z-index: 1;
 }
 .lp-ceo-photo .caption .role { font-size: 11px; letter-spacing: .1em; opacity: .8; font-family: var(--font-label-en); }
