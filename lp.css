@@ -1141,6 +1141,8 @@
   /* Narrative copy — keep to requested line counts on narrow phones */
   .lp-problems-outro { font-size: 11px; letter-spacing: -0.02em; line-height: 1.95; }
   .lp-journey-note   { font-size: 11px; letter-spacing: -0.01em; line-height: 1.8; }
+  /* Terms salary note — keep on a single line */
+  .lp-terms-card.full > p { font-size: 10px !important; letter-spacing: -0.01em; white-space: nowrap; }
 }
 
 
