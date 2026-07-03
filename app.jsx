@@ -66,7 +66,7 @@ function TopBar() {
         <a href="#voice">社員の声</a>
         <a href="#reasons">長く働ける理由</a>
         <a href="#terms">待遇</a>
-        <a href={D.brand.lineUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="pill">LINEで応募</a>
+        <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="pill">Indeedで応募</a>
       </nav>
     </header>
   );
@@ -86,14 +86,13 @@ function Hero() {
           <HeroTitle />
 
           <div className="lp-hero-sub fade-in" style={{animationDelay:'.6s'}}>
-            — 新築・2026年7月オープン、<br className="br-sp"/>3名限定募集。
+            — 新築・2026年7月オープン、<br className="br-sp"/>10名限定募集。
           </div>
           <div className="lp-hero-note fade-in" style={{animationDelay:'.7s'}}>{D.hero.note}</div>
 
           <div className="lp-hero-ctas fade-in" style={{animationDelay:'.8s'}}>
-            <a href={D.brand.lineUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="lp-btn big">
-              <span className="line-ico">L</span>
-              LINEで応募・相談する
+            <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="lp-btn big">
+              Indeedで応募する
             </a>
             <a href="#reasons" className="lp-btn ghost">長く働ける理由を見る ›</a>
           </div>
@@ -497,8 +496,7 @@ function CtaBlock() {
         <div className="lp-cta-list">
           {D.cta.body.map((b, i) => <div key={i}>{b}</div>)}
         </div>
-        <a href={D.brand.lineUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="lp-line-btn">
-          <span className="line-mark">LINE</span>
+        <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="lp-line-btn">
           {D.cta.button}
         </a>
         <div className="lp-cta-note">{D.cta.note}</div>
@@ -561,9 +559,8 @@ function FloatingCta() {
   }, []);
   const visible = show && !overCta;
   return (
-    <a href={D.brand.lineUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className={`lp-float-cta ${visible ? 'show' : ''}`}>
-      <span className="line-mark">LINE</span>
-      LINEで応募・相談する
+    <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className={`lp-float-cta ${visible ? 'show' : ''}`}>
+      Indeedで応募する
     </a>
   );
 }

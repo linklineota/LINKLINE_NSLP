@@ -10,7 +10,7 @@ window.LP_DATA = {
     postal: "546-0024",
     address: "大阪府大阪市東住吉区公園南矢田",
     openDate: "2026年7月",
-    lineUrl: "https://line.me/R/ti/p/%40395enukn",
+    applyUrl: "https://secure.indeed.com/auth?continue=https%3A%2F%2Fsmartapply.indeed.com%2Fbeta%2Findeedapply%2Fapplybyapplyablejobid%3FindeedApplyableJobId%3D61aac739-b8de-4a5b-91aa-fabe72366015-bnJ0cHJvZDE%26iaUid%3D1jsjti2lniral800%26iststd%3D1&cfb=2&obo=&hl=ja&from=indapply-login-SmartApply&branding=indeed-apply&tmpl=mobile",
   },
 
   // hero
@@ -19,7 +19,7 @@ window.LP_DATA = {
     jp1: "もっと安心して",
     jp2: "長く働きたい看護師の方、",
     jp3: "他にいませんか？",
-    note: "※この募集は3名の採用が決まり次第終了します",
+    note: "※この募集は10名の採用が決まり次第終了します",
     kpis: [
       { n: "98%", t: "有給消化率" },
       { n: "月1回", t: "業務改善ミーティング" },
@@ -327,15 +327,15 @@ window.LP_DATA = {
 
   cta: {
     eyebrow: "APPLY NOW",
-    title: "「ここで働いてみたい」\nそう感じたら、まずはLINEで。",
+    title: "「ここで働いてみたい」\nそう感じたら、まずはIndeedで。",
     body: [
       "「まずは話だけ聞きたい」",
       "「施設を見てから決めたい」",
       "「少し不安な部分があるから質問したい」",
       "ぜんぶ大歓迎です。",
     ],
-    button: "LINEで応募・相談する",
-    note: "※ この募集は採用人数が3名に達し次第、終了します。",
+    button: "Indeedで応募する",
+    note: "※Indeedの応募フォームに飛びます\n※応募は採用人数が10名に達し次第、終了します",
   },
 
   // Illustrations from the shared design system (remote URLs)
