@@ -10,7 +10,7 @@ window.LP_DATA = {
     postal: "546-0024",
     address: "大阪府大阪市東住吉区公園南矢田",
     openDate: "2026年7月",
-    applyUrl: "https://secure.indeed.com/auth?continue=https%3A%2F%2Fsmartapply.indeed.com%2Fbeta%2Findeedapply%2Fapplybyapplyablejobid%3FindeedApplyableJobId%3D61aac739-b8de-4a5b-91aa-fabe72366015-bnJ0cHJvZDE%26iaUid%3D1jsjti2lniral800%26iststd%3D1&cfb=2&obo=&hl=ja&from=indapply-login-SmartApply&branding=indeed-apply&tmpl=mobile",
+    applyUrl: "https://jp.indeed.com/viewjob?jk=a6c7af91ac84465e&from=mobRdr&utm_source=%2Fm%2F&utm_medium=redir&utm_campaign=dt",
   },
 
   // hero
@@ -335,7 +335,7 @@ window.LP_DATA = {
       "ぜんぶ大歓迎です。",
     ],
     button: "Indeedで応募する",
-    note: "※Indeedの応募フォームに飛びます\n※応募は採用人数が10名に達し次第、終了します",
+    note: "※Indeedの求人ページに飛びます\n※応募は採用人数が10名に達し次第、終了します",
   },
 
   // Illustrations from the shared design system (remote URLs)

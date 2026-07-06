@@ -65,7 +65,6 @@ function TopBar() {
       <nav className="topnav">
         <a href="#voice">社員の声</a>
         <a href="#reasons">長く働ける理由</a>
-        <a href="#terms">待遇</a>
         <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="pill">Indeedで応募</a>
       </nav>
     </header>
@@ -525,7 +524,6 @@ function Footer() {
           <a href="#tour">職場ツアー</a>
           <a href="#journey">入社後の流れ</a>
           <a href="#fit">求める人材</a>
-          <a href="#terms">給与・待遇</a>
           <a href="#process">採用フロー</a>
           <a href="#cta">応募する</a>
         </div>
@@ -635,7 +633,6 @@ function App() {
       <Tour />
       <Journey />
       <Fit />
-      <Terms />
       <Process />
       <CtaBlock />
       <Footer />
