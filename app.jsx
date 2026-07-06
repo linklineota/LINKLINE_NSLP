@@ -65,7 +65,7 @@ function TopBar() {
       <nav className="topnav">
         <a href="#voice">社員の声</a>
         <a href="#reasons">長く働ける理由</a>
-        <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="pill">Indeedで応募</a>
+        <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="pill">詳細を確認する</a>
       </nav>
     </header>
   );
@@ -91,7 +91,7 @@ function Hero() {
 
           <div className="lp-hero-ctas fade-in" style={{animationDelay:'.8s'}}>
             <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className="lp-btn big">
-              Indeedで応募する
+              詳細を確認する
             </a>
             <a href="#reasons" className="lp-btn ghost">長く働ける理由を見る ›</a>
           </div>
@@ -558,7 +558,7 @@ function FloatingCta() {
   const visible = show && !overCta;
   return (
     <a href={D.brand.applyUrl} target="_blank" rel="noopener noreferrer" onClick={trackLead} className={`lp-float-cta ${visible ? 'show' : ''}`}>
-      Indeedで応募する
+      詳細を確認する
     </a>
   );
 }
