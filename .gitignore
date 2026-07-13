@@ -15,3 +15,10 @@ node_modules/
 # OS / temp
 Thumbs.db
 *.swp
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
